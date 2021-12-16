@@ -6,3 +6,19 @@ Commits come with commit messages that are required for each commit. You add a m
 
 A commit message _can_ be anything, but best practice dictates that you should use that message to indicate the changes included in the commit.
 
+For example, if we have an application weare working on where we just built out the ability to register new accounts, then you might have some variation of the following:
+
+```
+git add .
+git commit -m "added register functionality"
+```
+
+Then when viewing the history of a git repository, you can pin point where the registration functionality was added.
+
+## Resources
+
+- [Git Commit Documentation](https://git-scm.com/docs/git-commit)
+
+---
+
+[Back to home](../README.md)
